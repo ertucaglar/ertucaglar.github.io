@@ -12,3 +12,10 @@ table { width: 100%; border-collapse: collapse; font-size: 15px; }
 th, td { text-align: left; vertical-align: top; padding: 8px 8px 8px 0; border-bottom: 1px solid var(--line); }
 .meta, .lang { color: var(--muted); font-size: 15px; margin-top: 0; }
 @media (max-width: 560px) { table, thead, tbody, tr, th, td { display: block; } thead { display: none; } td { border: 0; padding: 2px 0; } tr { border-bottom: 1px solid var(--line); padding: 8px 0; } }
+/* Dil: site.js <html data-lang> yazar; seçilmeyen dilin içeriği gizlenir. Betik çalışmazsa iki dil de görünür. */
+html[data-lang="en"] [data-lang="tr"], html[data-lang="tr"] [data-lang="en"], html[data-lang] hr.lang-split { display: none; }
+html[data-lang="en"] .lang a[hreflang="en"], html[data-lang="tr"] .lang a[hreflang="tr"] { color: var(--text); font-weight: 600; text-decoration: none; }
+.footer { margin-top: 48px; }
+.games { list-style: none; padding: 0; }
+.games li { padding: 16px 0; border-bottom: 1px solid var(--line); }
+.games strong { font-size: 20px; }
