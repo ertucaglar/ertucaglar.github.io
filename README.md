@@ -11,6 +11,9 @@ Bu depo hem kaynak hem yayın: dosyalar burada elle düzenlenir, `main`'e push e
 | Oyunun sayfası | `https://kanzhookgames.com/the-adam-game/` | `the-adam-game/index.html` | App Store (Marketing URL) |
 | Gizlilik politikası | `https://kanzhookgames.com/the-adam-game/privacy` | `the-adam-game/privacy.html` | App Store (Privacy Policy URL), Play (Gizlilik politikası beyanı), oyunun Ayarlar ekranı, AdMob gizlilik mesajları |
 | Destek | `https://kanzhookgames.com/the-adam-game/support` | `the-adam-game/support.html` | App Store (Support URL), oyunun Ayarlar ekranı, Play Veri güvenliği (veri silme isteği) |
+| Kesem'in sayfası | `https://kanzhookgames.com/kesem/` | `kesem/index.html` | App Store (Marketing URL) |
+| Kesem gizlilik politikası | `https://kanzhookgames.com/kesem/privacy` | `kesem/privacy.html` | App Store (Privacy Policy URL), Play (Gizlilik politikası beyanı), AdMob gizlilik mesajları |
+| Kesem destek | `https://kanzhookgames.com/kesem/support` | `kesem/support.html` | App Store (Support URL) |
 | Eski adresler | `/privacy/`, `/support/` | `privacy/index.html`, `support/index.html` | Yeni adrese yönlendirir: 2026-11-16'dan önceki build'lerin Ayarlar bağlantıları `ertucaglar.github.io/privacy/`'yi açar, GitHub o adresi `kanzhookgames.com`'a çevirir |
 
 **Dil.** Her sayfa iki dili de taşır (`data-lang="en"` / `"tr"`). `site.js` birini seçer, `style.css` ötekini gizler; betik çalışmazsa ikisi de görünür. Seçim sırası:
